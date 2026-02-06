@@ -1,0 +1,20 @@
+# accept the user details and print it 
+
+id=int(input("Enter ID : "))
+name=input("Enter Name : ")
+email=input("Enter Email ID : ")
+city=input("Enter City : ")
+userid=input("Enter User ID : ")
+password=input("Enter Password  : ")
+age=int(input("Enter Age : "))
+income=float(input("Enter Annual Income CTC : "))
+
+print("\n\n")
+print("================== User Details ======================")
+print("ID is : ",id)
+print("Name is : ",name)
+print("Email ID  is : ",email)
+print("City is : ",city)
+print("USer ID is : ",userid)
+print("Age is : ",age)
+print("CTC is : ",income)
